@@ -4,7 +4,7 @@ description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 date: '2020-12-28'
 author:
   name: Alexandre Marques
-  picture: '/avatar.jpg'
+  picture: '/avatar.png'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

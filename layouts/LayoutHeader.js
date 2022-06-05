@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useIsRoot } from '@/hooks/useIsRoot';
-import avatar from '../public/avatar.jpg';
+import avatar from '../public/avatar.png';
 
 const LayoutHeader = () => {
   const title = 'Digital Garden,';
