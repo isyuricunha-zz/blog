@@ -18,6 +18,7 @@ const Bio = () => {
     <section>
       <p className="text-xl">
         Hello 👋, <Typing options={options} />
+        {/* teste */}
       </p>
     </section>
   );
