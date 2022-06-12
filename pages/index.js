@@ -15,7 +15,7 @@ export default function Home({ postsData }) {
 }
 
 export async function getStaticProps() {
-  const postsData = getExportedPostsByDate();
+  const postsData = await getExportedPostsByDate();
   return {
     props: {
       postsData
