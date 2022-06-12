@@ -18,7 +18,7 @@ class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
             rel="stylesheet"
-          ></link>
+          />
           <link rel="shortcut icon" href="/favicon/favicon.ico" />
           <link
             rel="apple-touch-icon"
