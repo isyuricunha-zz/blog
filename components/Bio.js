@@ -1,9 +1,9 @@
-import Typing from './Typing';
+import Typing from "./Typing";
 
 const TYPING_MSGS = [
   "I'm Fullstack Developer.",
   "I'm Technology Evangelist.",
-  "I'm <strong>me<strong>."
+  "I'm <strong>me<strong>.",
 ];
 
 const Bio = () => {
@@ -11,7 +11,7 @@ const Bio = () => {
     strings: TYPING_MSGS,
     typeSpeed: 65,
     backSpeed: 70,
-    cursorChar: '|'
+    cursorChar: "|",
   };
 
   return (

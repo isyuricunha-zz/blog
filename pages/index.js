@@ -1,7 +1,7 @@
-import Layout from '@/layouts/Layout';
-import { getExportedPostsByDate } from '@/lib/api';
-import Bio from '@/components/Bio';
-import BlogPostsList from '@/components/BlogPostsList';
+import Layout from "@/layouts/Layout";
+import { getExportedPostsByDate } from "@/lib/api";
+import Bio from "@/components/Bio";
+import BlogPostsList from "@/components/BlogPostsList";
 
 export default function Home({ postsData }) {
   return (
@@ -18,7 +18,7 @@ export async function getStaticProps() {
   const postsData = await getExportedPostsByDate();
   return {
     props: {
-      postsData
-    }
+      postsData,
+    },
   };
 }

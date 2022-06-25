@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { useIsRoot } from '@/hooks/useIsRoot';
-import avatar from '../public/avatar.png';
+import Image from "next/image";
+import Link from "next/link";
+import { useIsRoot } from "@/hooks/useIsRoot";
+import avatar from "../public/avatar.png";
 
 const LayoutHeader = () => {
-  const title = 'Digital Garden,';
+  const title = "Digital Garden,";
   const isRoot = useIsRoot();
-  const imgSize = isRoot ? '150' : '106';
+  const imgSize = isRoot ? "150" : "106";
 
   return (
     <header className="flex flex-col items-center mb-4">
