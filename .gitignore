@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -30,3 +31,12 @@ yarn-error.log*
 
 .vercel
 .env.local
+=======
+node_modules
+.next
+.env
+out/
+.next/
+.DS_Store
+.log
+>>>>>>> parent of 0f2823e (remove all)

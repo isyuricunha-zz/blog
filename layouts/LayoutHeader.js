@@ -4,7 +4,11 @@ import { useIsRoot } from '@/hooks/useIsRoot';
 import avatar from '../public/avatar.png';
 
 const LayoutHeader = () => {
+<<<<<<< HEAD
   const title = 'Digital Garden,';
+=======
+  const title = 'Yuri Cunha';
+>>>>>>> parent of 0f2823e (remove all)
   const isRoot = useIsRoot();
   const imgSize = isRoot ? '150' : '106';
 
@@ -50,7 +54,11 @@ const Title = ({ title }) => {
         {title}
       </span>
       <br />
+<<<<<<< HEAD
       by Your Name.
+=======
+      {/* example */}
+>>>>>>> parent of 0f2823e (remove all)
     </>
   );
 };
