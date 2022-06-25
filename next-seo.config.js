@@ -1,13 +1,12 @@
-const title = 'Yuri Cunha';
-const titleTemplate = '%s';
-const description =
-  'Yuri Cunha';
+const title = 'Yuri Cunha'
+const titleTemplate = '%s'
+const description = 'Yuri Cunha'
 
 const SEO = {
   title,
   titleTemplate,
   description,
-  canonical: title  ,
+  canonical: title,
   openGraph: {
     type: 'website',
     locale: 'en_IE',
@@ -19,15 +18,15 @@ const SEO = {
         url: 'https://www.blog.garotogordo.codes//api/thumbnail.png',
         alt: title,
         width: 1200,
-        height: 630
-      }
-    ]
+        height: 630,
+      },
+    ],
   },
   twitter: {
     handle: '@isyuricunha',
     site: '@isyuricunha',
-    cardType: 'summary_large_image'
-  }
-};
+    cardType: 'summary_large_image',
+  },
+}
 
-export default SEO;
+export default SEO

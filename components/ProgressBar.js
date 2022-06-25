@@ -1,33 +1,33 @@
-import { useRouter } from 'next/router';
-import NProgress from 'nprogress';
-import { useEffect } from 'react';
+import { useRouter } from 'next/router'
+import NProgress from 'nprogress'
+import { useEffect } from 'react'
 
 const ProgressBar = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   useEffect(() => {
-    let timeout;
+    let timeout
 
     const start = () => {
-      timeout = setTimeout(NProgress.start, 100);
-    };
+      timeout = setTimeout(NProgress.start, 100)
+    }
 
     const done = () => {
-      clearTimeout(timeout);
-      NProgress.done();
-    };
+      clearTimeout(timeout)
+      NProgress.done()
+    }
 
-    router.events.on('routeChangeStart', start);
-    router.events.on('routeChangeComplete', done);
-    router.events.on('routeChangeError', done);
+    router.events.on('routeChangeStart', start)
+    router.events.on('routeChangeComplete', done)
+    router.events.on('routeChangeError', done)
     return () => {
-      router.events.off('routeChangeStart', start);
-      router.events.off('routeChangeComplete', done);
-      router.events.off('routeChangeError', done);
-    };
-  }, [router.events]);
+      router.events.off('routeChangeStart', start)
+      router.events.off('routeChangeComplete', done)
+      router.events.off('routeChangeError', done)
+    }
+  }, [router.events])
 
-  return <></>;
-};
+  return <></>
+}
 
-export default ProgressBar;
+export default ProgressBar

@@ -1,6 +1,6 @@
-import LayoutHeader from '@/layouts/LayoutHeader';
-import LayoutFooter from '@/layouts/LayoutFooter';
-import GithubSourceCode from '@/components/GithubSourceCode';
+import LayoutHeader from '@/layouts/LayoutHeader'
+import LayoutFooter from '@/layouts/LayoutFooter'
+import GithubSourceCode from '@/components/GithubSourceCode'
 
 export default function Layout({ children }) {
   return (
@@ -12,5 +12,5 @@ export default function Layout({ children }) {
         <LayoutFooter />
       </div>
     </>
-  );
+  )
 }

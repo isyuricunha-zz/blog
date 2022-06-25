@@ -1,13 +1,13 @@
 /* eslint-disable react/no-danger */
-import PostDate from '@/components/PostDate';
-import Layout from '@/layouts/Layout';
-import Image from 'next/image';
-import { NextSeo } from 'next-seo';
-import ViewCounter from '@/components/ViewCounter';
-import { useThumbnailGenerator } from '@/hooks/useThumbnailGenerator';
+import PostDate from '@/components/PostDate'
+import Layout from '@/layouts/Layout'
+import Image from 'next/image'
+import { NextSeo } from 'next-seo'
+import ViewCounter from '@/components/ViewCounter'
+import { useThumbnailGenerator } from '@/hooks/useThumbnailGenerator'
 
 const BlogPostLayout = ({ data, children }) => {
-  const { title, date, author, readingTime, id } = data;
+  const { title, date, author, readingTime, id } = data
   return (
     <Layout>
       <PostSeo {...data} />
@@ -22,11 +22,11 @@ const BlogPostLayout = ({ data, children }) => {
         <div className="prose" dangerouslySetInnerHTML={{ __html: children }} />
       </article>
     </Layout>
-  );
-};
+  )
+}
 
 const PostSeo = ({ title, description }) => {
-  const ogFullImageUrl = useThumbnailGenerator();
+  const ogFullImageUrl = useThumbnailGenerator()
   return (
     <NextSeo
       title={title}
@@ -37,17 +37,17 @@ const PostSeo = ({ title, description }) => {
         images: [
           {
             url: `${ogFullImageUrl}`,
-            alt: title
-          }
-        ]
+            alt: title,
+          },
+        ],
       }}
     />
-  );
-};
+  )
+}
 
 const PostTitle = ({ children }) => (
   <h1 className="my-2 text-4xl font-bold">{children}</h1>
-);
+)
 
 const PostHeader = ({ dateStr, author, readTime, id }) => {
   return (
@@ -62,8 +62,8 @@ const PostHeader = ({ dateStr, author, readTime, id }) => {
         <ViewCounter slug={id} />
       </p>
     </div>
-  );
-};
+  )
+}
 
 const PostAuthor = ({ name, picture }) => {
   return (
@@ -79,7 +79,7 @@ const PostAuthor = ({ name, picture }) => {
       />
       <span>{name}</span>
     </div>
-  );
-};
+  )
+}
 
-export default BlogPostLayout;
+export default BlogPostLayout

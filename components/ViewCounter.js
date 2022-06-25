@@ -1,17 +1,17 @@
-import { useEffect } from 'react';
-import { usePostViews } from '@/hooks/usePostViews';
+import { useEffect } from 'react'
+import { usePostViews } from '@/hooks/usePostViews'
 
 export default function ViewCounter({ slug }) {
-  const { views } = usePostViews(slug);
+  const { views } = usePostViews(slug)
 
   useEffect(() => {
     const countView = () =>
       fetch(`/api/views/${slug}`, {
-        method: 'POST'
-      });
+        method: 'POST',
+      })
 
-    countView();
-  }, [slug]);
+    countView()
+  }, [slug])
 
-  return `${views || '–––'} views`;
+  return `${views || '–––'} views`
 }

@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import PostDate from '@/components/PostDate';
-import { usePostViews } from '@/hooks/usePostViews';
+import Link from 'next/link'
+import PostDate from '@/components/PostDate'
+import { usePostViews } from '@/hooks/usePostViews'
 
 const BlogPostsList = ({ posts }) => {
   return (
@@ -16,11 +16,11 @@ const BlogPostsList = ({ posts }) => {
         />
       ))}
     </section>
-  );
-};
+  )
+}
 
 const PostPreview = ({ title, date, slug, desc }) => {
-  const { views } = usePostViews(slug);
+  const { views } = usePostViews(slug)
   return (
     <div className="p-3 mb-5 border-2 border-gray-300">
       <Link href={`/posts/${slug}`}>
@@ -32,7 +32,7 @@ const PostPreview = ({ title, date, slug, desc }) => {
       </div>
       <div className="mt-1 italic text-light">{desc}</div>
     </div>
-  );
-};
+  )
+}
 
-export default BlogPostsList;
+export default BlogPostsList

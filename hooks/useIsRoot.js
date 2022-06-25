@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/router'
 
 export function useIsRoot() {
-  return useRouter().pathname === '/';
+  return useRouter().pathname === '/'
 }

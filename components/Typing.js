@@ -1,21 +1,21 @@
-import { useEffect, useRef } from 'react';
-import Typed from 'typed.js';
+import { useEffect, useRef } from 'react'
+import Typed from 'typed.js'
 
 const Typing = ({ options }) => {
-  const elementRef = useRef(null);
+  const elementRef = useRef(null)
 
   useEffect(() => {
-    const typed = new Typed(elementRef.current, options);
+    const typed = new Typed(elementRef.current, options)
     return () => {
-      typed.destroy();
-    };
-  }, [options]);
+      typed.destroy()
+    }
+  }, [options])
 
   return (
     <>
       <span ref={elementRef} />
     </>
-  );
-};
+  )
+}
 
-export default Typing;
+export default Typing

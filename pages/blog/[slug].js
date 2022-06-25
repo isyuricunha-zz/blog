@@ -15,13 +15,13 @@ export default function BlogTemplate(props) {
         name: 'frontmatter.hero_image',
         component: 'image',
         // Generate the frontmatter value based on the filename
-        parse: media => `/static/${media.filename}`,
+        parse: (media) => `/static/${media.filename}`,
 
         // Decide the file upload directory for the post
         uploadDir: () => '/public/static/',
 
         // Generate the src attribute for the preview image.
-        previewSrc: fullSrc => fullSrc.replace('/public', ''),
+        previewSrc: (fullSrc) => fullSrc.replace('/public', ''),
       },
       {
         name: 'frontmatter.title',
@@ -207,7 +207,7 @@ export default function BlogTemplate(props) {
   )
 }
 
-BlogTemplate.getInitialProps = async function(ctx) {
+BlogTemplate.getInitialProps = async function (ctx) {
   const { slug } = ctx.query
   const content = await import(`../../posts/${slug}.md`)
   const config = await import(`../../data/config.json`)

@@ -1,4 +1,4 @@
-import { REPO_URL } from '@/lib/constants';
+import { REPO_URL } from '@/lib/constants'
 
 export default function GithubViewSource() {
   return (
@@ -22,5 +22,5 @@ export default function GithubViewSource() {
         />
       </a>
     </svg>
-  );
+  )
 }

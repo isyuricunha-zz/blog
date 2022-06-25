@@ -72,7 +72,7 @@ export class MarkdownCreatorPlugin {
 
 export const CreateBlogPlugin = new MarkdownCreatorPlugin({
   label: 'Add New Post',
-  filename: form => {
+  filename: (form) => {
     const slug = form.title.replace(/\s+/g, '-').toLowerCase()
     return `posts/${slug}.md`
   },
@@ -96,7 +96,7 @@ export const CreateBlogPlugin = new MarkdownCreatorPlugin({
       component: 'text',
     },
   ],
-  frontmatter: postInfo => ({
+  frontmatter: (postInfo) => ({
     title: postInfo.title,
     date: postInfo.date || new Date(),
     author: postInfo.author || 'Kurt Vonnegut',

@@ -35,8 +35,8 @@ const LayoutFooter = () => {
         &copy; Copyright {new Date().getFullYear()}, Yuri Cunha.
       </div>
     </footer>
-  );
-};
+  )
+}
 
 const ExternalTabLink = ({ href, children }) => (
   <a
@@ -47,5 +47,5 @@ const ExternalTabLink = ({ href, children }) => (
   >
     {children}
   </a>
-);
-export default LayoutFooter;
+)
+export default LayoutFooter

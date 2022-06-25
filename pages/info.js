@@ -55,7 +55,7 @@ export default function Info(props) {
   )
 }
 
-Info.getInitialProps = async function() {
+Info.getInitialProps = async function () {
   const content = await import(`../data/info.md`)
   const config = await import(`../data/config.json`)
   const data = matter(content.default)

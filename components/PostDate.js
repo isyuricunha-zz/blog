@@ -1,4 +1,4 @@
-import { formatPostDate } from '@/lib/utils';
+import { formatPostDate } from '@/lib/utils'
 
 const PostDate = ({ dateStr }) => {
   return (
@@ -19,7 +19,7 @@ const PostDate = ({ dateStr }) => {
       </svg>
       <time dateTime={dateStr}>{formatPostDate(dateStr)}</time>
     </div>
-  );
-};
+  )
+}
 
-export default PostDate;
+export default PostDate
