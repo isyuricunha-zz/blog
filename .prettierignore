@@ -1,8 +1,0 @@
-# Ignore
-.next
-.vercel
-build
-coverage
-node_modules
-styles
-public
