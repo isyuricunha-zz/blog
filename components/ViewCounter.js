@@ -13,5 +13,5 @@ export default function ViewCounter({ slug }) {
     countView();
   }, [slug]);
 
-  return `${views || '–––'} views`;
+  return `${views || '–––'} Visualizações`;
 }

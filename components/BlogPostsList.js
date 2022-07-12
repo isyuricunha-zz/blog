@@ -28,7 +28,7 @@ const PostPreview = ({ title, date, slug, desc }) => {
       </Link>
       <div className="flex justify-between text-light">
         <PostDate dateStr={date} />
-        <p>{`${views || '–––'} views`}</p>
+        <p>{`${views || '–––'} Visualizações`}</p>
       </div>
       <div className="mt-1 italic text-light">{desc}</div>
     </div>
