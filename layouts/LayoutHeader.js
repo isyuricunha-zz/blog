@@ -51,7 +51,7 @@ const Title = ({ title }) => {
         {title}
       </span>
       <br />
-      por Yuri Cunha.
+      by Yuri Cunha.
     </>
   );
 };

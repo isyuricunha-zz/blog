@@ -1,4 +1,4 @@
-const title = 'From The Desk, por Yuri Cunha';
+const title = 'From The Desk, by Yuri Cunha';
 const titleTemplate = '%s';
 const description =
   'Um blog sobre tecnologia, desenvolvimento e inovação. Escrito por Yuri Cunha.';
