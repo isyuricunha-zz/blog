@@ -16,7 +16,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://www.blog.garotogordo.codes/api/thumbnail.png',
+        url: '/public/avatar.jpg',
         alt: title,
         width: 1200,
         height: 630
