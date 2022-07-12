@@ -2,7 +2,7 @@ const LayoutFooter = () => {
   return (
     <footer className="flex flex-col items-center">
       <div className="flex mb-2 space-x-2 ">
-        <ExternalTabLink href="https://github.com/alexmarqs">
+        <ExternalTabLink href="https://github.com/isyuricunha">
           <span className="sr-only">Github</span>
           <svg className="w-5 h-5" viewBox="0 0 24 24">
             <g
@@ -16,7 +16,7 @@ const LayoutFooter = () => {
             </g>
           </svg>
         </ExternalTabLink>
-        <ExternalTabLink href="https://twitter.com/alexlmarques">
+        <ExternalTabLink href="https://twitter.com/isyuricunha">
           <span className="sr-only">Twitter</span>
           <svg className="w-5 h-5" viewBox="0 0 24 24">
             <g
@@ -32,8 +32,7 @@ const LayoutFooter = () => {
         </ExternalTabLink>
       </div>
       <div className="text-sm text-gray-500 font">
-        &copy; Copyright {new Date().getFullYear()}, Example by Alexandre
-        Marques.
+        &copy; Copyright {new Date().getFullYear()}, Yuri Cunha.
       </div>
     </footer>
   );

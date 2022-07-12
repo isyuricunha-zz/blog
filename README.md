@@ -2,7 +2,7 @@
 
 This is based on starter template for [Learn Next.js](https://nextjs.org/learn) but using some customizations 🚀.
 
-Demo: https://simple-blog-nextjs-three.vercel.app
+Demo: https://www.blog.garotogordo.codes/
 
 ## Built with
 
@@ -21,7 +21,7 @@ Demo: https://simple-blog-nextjs-three.vercel.app
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/alexmarqs/simple-blog-with-nextjs.git
+$ git clone https://github.com/isyuricunha/simple-blog-with-nextjs.git
 $ cd simple-blog-with-nextjs
 $ yarn
 $ yarn dev

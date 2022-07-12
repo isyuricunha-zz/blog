@@ -50,7 +50,7 @@ const Title = ({ title }) => {
         {title}
       </span>
       <br />
-      by Your Name.
+      by Yuri Cunha.
     </>
   );
 };

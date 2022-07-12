@@ -1,9 +1,9 @@
 ---
 title: 'Two Forms of Pre-rendering'
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-date: '2020-12-28'
+date: '2022-06-28'
 author:
-  name: Alexandre Marques
+  name: Yuri Cunha
   picture: '/avatar.jpg'
 ---
 

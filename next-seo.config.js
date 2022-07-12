@@ -7,16 +7,16 @@ const SEO = {
   title,
   titleTemplate,
   description,
-  canonical: 'https://simple-blog-nextjs-three.vercel.app',
+  canonical: 'https://www.blog.garotogordo.codes/',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://simple-blog-nextjs-three.vercel.app',
+    url: 'https://www.blog.garotogordo.codes/',
     title,
     description,
     images: [
       {
-        url: 'https://simple-blog-nextjs-three.vercel.app/api/thumbnail.png',
+        url: 'https://www.blog.garotogordo.codes//api/thumbnail.png',
         alt: title,
         width: 1200,
         height: 630
@@ -24,8 +24,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@alexlmarques',
-    site: '@alexlmarques',
+    handle: '@isyuricunha',
+    site: '@isyuricunha',
     cardType: 'summary_large_image'
   }
 };

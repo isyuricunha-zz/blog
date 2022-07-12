@@ -1,6 +1,6 @@
 {
-  "name": "example-blog-with-nextjs",
-  "description": "Example of a blog built with Next.js",
+  "name": "yuri-cunha-blog",
+  "description": "My personal blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {

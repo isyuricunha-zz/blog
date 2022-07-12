@@ -1,9 +1,9 @@
 ---
 title: 'When to Use Static Generation v.s. Server-side Rendering'
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
-date: '2020-12-27'
+date: '2022-06-28'
 author:
-  name: Alexandre Marques
+  name: Yuri Cunha
   picture: '/avatar.jpg'
 ---
 
