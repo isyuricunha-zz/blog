@@ -1,7 +1,7 @@
 ---
 title: 'Conselhos que eu gostaria de ter ouvido quando comecei na tecnologia.'
 description: 'As coisas não funcionam bem assim.'
-date: '2022-06-28'
+date: '2022-07-12'
 author:
   name: Yuri Cunha
   picture: '/autor/yuricunha.png'
