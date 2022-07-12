@@ -1,7 +1,7 @@
-const title = 'Example blog with Next.js';
+const title = 'From The Desk, por Yuri Cunha';
 const titleTemplate = '%s';
 const description =
-  'Example blog built with Next.js + TailwindCSS and deployed with Vercel';
+  'Um blog sobre tecnologia, desenvolvimento e inovação. Escrito por Yuri Cunha.';
 
 const SEO = {
   title,
@@ -16,7 +16,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://www.blog.garotogordo.codes//api/thumbnail.png',
+        url: 'https://www.blog.garotogordo.codes/api/thumbnail.png',
         alt: title,
         width: 1200,
         height: 630
