@@ -2,9 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useIsRoot } from '@/hooks/useIsRoot';
 import avatar from '../public/avatar.jpg';
+import yuricunha from '../public/autor/yuricunha.png';
 
 const LayoutHeader = () => {
-  const title = 'Digital Garden,';
+  const title = 'From The Desk,';
   const isRoot = useIsRoot();
   const imgSize = isRoot ? '150' : '106';
 

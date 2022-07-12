@@ -11,7 +11,10 @@ const Bio = () => {
     strings: TYPING_MSGS,
     typeSpeed: 65,
     backSpeed: 70,
-    cursorChar: '|'
+    cursorChar: '|',
+    smoothScrolling: true,
+    cursorSmoothCaretAnimation: true,
+    showCursor: true
   };
 
   return (

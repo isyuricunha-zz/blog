@@ -4,7 +4,7 @@ description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 date: '2022-06-28'
 author:
   name: Yuri Cunha
-  picture: '/avatar.jpg'
+  picture: '/autor/yuricunha.png'
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
