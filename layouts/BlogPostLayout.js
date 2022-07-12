@@ -70,7 +70,7 @@ const PostAuthor = ({ name, picture }) => {
     <div className="flex items-center space-x-1">
       <Image
         src={picture}
-        alt="Picture of the author"
+        alt="Foto do autor."
         width={20}
         height={20}
         quality={25}

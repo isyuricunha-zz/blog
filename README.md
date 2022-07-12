@@ -21,8 +21,8 @@ Demo: https://www.blog.garotogordo.codes/
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/isyuricunha/simple-blog-with-nextjs.git
-$ cd simple-blog-with-nextjs
+$ git clone https://github.com/isyuricunha/blog
+$ cd blog
 $ yarn
 $ yarn dev
 ```

@@ -15,7 +15,7 @@ const LayoutHeader = () => {
         <a>
           <Image
             src={avatar}
-            alt="Picture of the author"
+            alt="Foto do autor."
             width={imgSize}
             height={imgSize}
             quality={45}
@@ -51,7 +51,7 @@ const Title = ({ title }) => {
         {title}
       </span>
       <br />
-      by Yuri Cunha.
+      por Yuri Cunha.
     </>
   );
 };

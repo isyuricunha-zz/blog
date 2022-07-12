@@ -1,9 +1,10 @@
 import Typing from './Typing';
 
 const TYPING_MSGS = [
-  "I'm Fullstack Developer.",
-  "I'm Technology Evangelist.",
-  "I'm <strong>me<strong>."
+  'Eu sou um Front-end Developer Junior.',
+  "Amante do mundo <a href='https://en.wikipedia.org/wiki/Open_source'>Open-Source<a>",
+  'Só mais um cara tentando apressar a fila do mercado com o poder da mente.',
+  'Eu sou <strong>eu<strong>.'
 ];
 
 const Bio = () => {
@@ -20,7 +21,7 @@ const Bio = () => {
   return (
     <section>
       <p className="text-xl">
-        Hello 👋, <Typing options={options} />
+        <Typing options={options} />
       </p>
     </section>
   );
