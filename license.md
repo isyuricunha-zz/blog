@@ -1,6 +1,6 @@
 Yuri Cunha Personal License
 
-# License
+# License, by Yuri Cunha
 
 1. You are free to use this code as inspiration.
 2. Please do not copy large parts of it directly.
