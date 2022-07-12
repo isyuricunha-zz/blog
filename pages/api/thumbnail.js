@@ -24,7 +24,7 @@ export default async function (req, res) {
     await browser.close();
     // Set the s-maxage property which caches the images then on the Vercel edge
     res.setHeader('Cache-Control', 's-maxage=31536000, stale-while-revalidate');
-    res.setHeader('Content-Type', '/public/avatar.jpg');
+    res.setHeader('Content-Type', 'image/png');
     // write the image to the response with the specified Content-Type
     res.end(data);
   } catch (error) {
