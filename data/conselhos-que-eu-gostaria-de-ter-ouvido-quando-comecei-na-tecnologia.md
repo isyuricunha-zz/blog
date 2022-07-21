@@ -18,7 +18,7 @@ Não posso detalhar mais do que isso.
 
 **2 — Não fique desapontado se vir códigos, sites e aplicativos que parecem bem complicados.**<br>
 Acredite, aqueles que elaboraram aplicativos como Instagram, WhatsApp ou Facebook praticaram décadas, talvez décadas, para elaborar esses aplicativos.<br>
-Você precisa de tempo. A diferença entre um mestre e um iniciante é o tempo. Afinal, o tempo traz com a prática, traz a experiência.
+Você precisa de tempo. A diferença entre um mestre e um iniciante é o tempo. Afinal, o tempo traz a prática, e a experiência.
 <br><br>
 
 **3 — Você precisa de uma boa equipe.**<br>
